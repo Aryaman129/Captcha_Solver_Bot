@@ -61,6 +61,7 @@ scrcpy-*/
 
 # Old/archived files
 OldFiles/
+docs/
 
 # OS specific
 .DS_Store
