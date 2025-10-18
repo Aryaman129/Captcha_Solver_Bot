@@ -1,0 +1,7 @@
+pywin32>=228
+opencv-python>=4.5.0
+easyocr>=1.6.0
+pure-python-adb==0.3.0.dev0
+numpy>=1.19.0
+torch>=1.7.0
+Pillow>=8.0.0

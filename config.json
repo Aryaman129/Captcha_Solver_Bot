@@ -1,0 +1,41 @@
+{
+    "captcha_work": {
+        "package": "com.yourapp.package",
+        "activity": ".MainActivity",
+        "note": "REQUIRED: Replace with your actual CAPTCHA app package and activity name. See README for how to find these."
+    },
+    "coordinates": {
+        "note": "REQUIRED: Adjust these based on YOUR phone's screen resolution and app layout. See README for instructions.",
+        "input_field_x": 540,
+        "input_field_y": 1400,
+        "submit_button_x": 540,
+        "submit_button_y": 1700,
+        "captcha_crop": {
+            "note": "REQUIRED: Region where CAPTCHA image appears on YOUR screen",
+            "x1": 100,
+            "y1": 800,
+            "x2": 980,
+            "y2": 1200
+        }
+    },
+    "delays": {
+        "note": "OPTIONAL: Adjust based on your phone's performance. Increase if phone is slow, decrease for faster phones.",
+        "after_tap": 0.5,
+        "after_text": 0.5,
+        "after_submit": 2.0,
+        "after_close": 0.5,
+        "after_open": 3.0,
+        "before_screenshot": 1.0
+    },
+    "ocr": {
+        "min_confidence": 0.3,
+        "languages": ["en"],
+        "note": "OPTIONAL: Supported languages: en, ch_sim, ch_tra, ja, ko, ar, etc. Adjust min_confidence (0.0-1.0) for accuracy."
+    },
+    "adb": {
+        "command": "adb",
+        "device_serial": null,
+        "wireless_port": 5555,
+        "note": "OPTIONAL: Set device_serial if you have multiple devices. Example: '192.168.1.100:5555' for wireless"
+    }
+}

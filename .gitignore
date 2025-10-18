@@ -1,0 +1,79 @@
+# AI Assistant files
+.qodo/
+.codacy/
+
+# VS Code AI rules
+.github/instructions/codacy.instructions.md
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Virtual environments
+venv/
+env/
+ENV/
+captcha_env/
+.venv/
+
+# Logs
+*.log
+logs/
+
+# Temporary files
+*.tmp
+*.temp
+temp_*
+*.db
+*.db-journal
+
+# Screenshots (optional - remove if you want to track them)
+screenshots/
+
+# Android platform tools
+platform-tools/
+platform-tools.zip
+adb.exe
+fastboot.exe
+
+# scrcpy temporary files
+scrcpy_temp/
+scrcpy-*/
+
+# Old/archived files
+OldFiles/
+
+# OS specific
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+
+# IDE
+.vscode/
+.idea/
+*.sublime-*
+
+# Build artifacts
+.dist/
+dist/
+build/
